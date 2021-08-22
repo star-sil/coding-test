@@ -1,3 +1,4 @@
+
 a = int(input())
 b = int(input())
 input_list = list()
