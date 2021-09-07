@@ -1,3 +1,4 @@
+#바이러스 116ms
 from collections import deque
 input_list = dict()
 com = eval(input())
