@@ -1,3 +1,8 @@
-string = '123444333'
-string = string.replace('4','')
-print(string)
+li = [1,2,3,0,1,2]
+for i in li:
+    try:
+        print(1 / i)
+    except e:
+        print(e)
+    finally:
+        print('se')
