@@ -28,3 +28,5 @@ list()는 원소하나만 있으면 안된다. 여러 원소를 가져야 한다
 가장 큰 원소 찾기 max
 
 pypy는 재귀에 약하다.
+
+python의 경우에 bisect, bisect_left/right 사용해보시면 이진 탐색 구현없이 사용가능합니다!
