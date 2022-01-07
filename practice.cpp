@@ -6,6 +6,8 @@
 #include <map>
 #include <stack>
 #include <queue>
+//입력 빠르게 하기
+std::ios::sync_with_stdio(false);
 using namespace std;
 int main()
 {
