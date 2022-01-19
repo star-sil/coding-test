@@ -4,10 +4,7 @@
 //visited 배열의 길이가 1000이 아니라 1001이되어야한다.
 //웬만하면 전역변수로 선언하는게 좋다. 속도 증가
 //size 잘못 찾았다.
-#include <algorithm>
-#include <vector>
-#include <cstdio>
-#include <cstring>
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef pair<int,int> ii;
