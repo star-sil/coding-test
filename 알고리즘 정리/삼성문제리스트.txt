@@ -12,6 +12,16 @@
 11. 단어 수학 1339
 12. 치킨 배달 15686
 
+정렬
+유일성 검사
+https://www.geeksforgeeks.org/print-distinct-elements-given-integer-array/
+
+합집합/교집합
+https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2
+
+Binary Search
+https://www.acmicpc.net/blog/view/109
+
 시간 복잡도
 1. 수들의 합 2 2003
 2. 나무 자르기 2805
@@ -24,6 +34,48 @@
 9. 합이 0인 네 정수 7453
 10. 집배원 한상덕 2842
 11. 최솟값 찾기 11003
+
+누적합 구하는 방법
+
+https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming
+
+배열
+
+\cpbook-code-master\ch2\lineards\array_algorithms.cpp
+
+Stack, queue
+
+\cpbook-code-master\ch2\lineards\list.cpp
+
+Tree terminology
+
+http://www.btechsmartclass.com/data_structures/tree-terminology.html
+
+우선순위큐
+
+\cpbook-code-master\ch2\nonlineards\priority_queue.cpp
+
+Segment Tree
+
+\cpbook-code-master\ch2\ourown\segmenttree_ds.cpp
+
+Trie
+
+\cpbook-code-master\ch6\Trie.cpp
+
+BST/AVL Tree
+
+https://visualgo.net/en/bst
+
+\cpbook-code-master\ch2\nonlineards\AVL.cpp
+
+Hashing
+
+\cpbook-code-master\ch2\nonlineards\unordered_map_unordered_set.cpp
+
+Map, Set
+
+\cpbook-code-master\ch2\nonlineards\map_set.cpp
 
 자료구조
 A - 스택 10828
@@ -41,7 +93,7 @@ L - 가운데를 말해요 1655
 M - 보석 도둑 1202
 N - 사탕상자 2243
 O - 개똥벌레 3020
-P - 커피숍2 1275
+P - 커피숍2 1275 (인덱스트리, fenwick트리)
 Q - 소수의 곱 2014
 R - 강수량 2094
 
@@ -61,6 +113,23 @@ L - 30 10610
 M - 수학은 너무 쉬워 2904
 N - 소수를 분수로 5376
 
+순열 참고
+
+https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string
+
+중복순열
+
+https://www.geeksforgeeks.org/print-all-permutations-with-repetition-of-characters
+
+중복조합
+
+https://www.geeksforgeeks.org/combinations-with-repetitions
+
+파스칼 삼각형
+
+https://www.geeksforgeeks.org/calculate-ncr-using-pascals-triangle
+
+
 그래프1
 A - 집합의 표현 1717 (유니온 파인드 , union & find)
 B - 줄 세우기 2252 (위상 정렬)
@@ -68,8 +137,8 @@ C - 네트워크 연결 1922 (프림 & 크루스칼 알고리즘 사용)
 D - LCA 2 11438
 E - 키 순서 2458 (플로이드 뭐셜)
 F - 게임 개발 1516 (위상정렬)
-G - 교수님은 기다리지 않는다 3830
-H - 도로 네트워크 3176
+G - 교수님은 기다리지 않는다 3830 (유니온 파인드)
+H - 도로 네트워크 3176 (LCA)
 I - 두 번째로 작은 스패닝 트리 1626
 
 그래프2
@@ -80,4 +149,27 @@ D - 플로이드 11404
 E - 단절선 11400
 F - 할로윈 묘지 3860
 G - 거의 최단 경로 5719 (다이스트라 + 경로 저장)
-H - K번째 최단경로 찾기 1854
+H - K번째 최단경로 찾기 1854 (다이스트라)
+
+동적계획법1
+A - 정수 삼각형
+B - 구간 합 구하기 4
+C - 구간 합 구하기 5(인덱스 트리)
+D - 계단 오르기
+E - 가장 큰 정사각형 (dp)
+F - 행렬 곱셈 순서
+G - 가장 긴 증가하는 부분 수열 5
+
+동적계획법2
+A - 앱
+B - 공통 부분 문자열
+C - LCS 2
+D - 제단
+E - 전구
+F - 카드 게임
+G - Dance Dance Revolution
+H - 외판원 순회
+I - 발전소
+J - 경찰차
+K - 공장
+L - 케이크 자르기 2
