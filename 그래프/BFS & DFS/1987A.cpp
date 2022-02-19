@@ -20,7 +20,7 @@ void dfs(int x, int y, int cnt){
     int index = graph[x][y] - 'A';
     result = (cnt > result) ? cnt : result;
 
-    if(x < R && x >= 0 && y < C && y >= 0 && visited[index] && graph[x][y] != 0){
+    if(x < R && x >= 0 && y < C && y >= 0 && !visited[index] && graph[x][y] != 0){
         cnt++; visited[index] = true;
         
         dfs(x+1,y,cnt); dfs(x,y+1, cnt); dfs(x-1,y, cnt); dfs(x,y-1,cnt);
