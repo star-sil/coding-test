@@ -9,13 +9,11 @@ graph는 전역 변수 이므로 모든 노드들이 방문여부를 공유한�
 **/
 
 #include <iostream>
-
 using namespace std;
 
 int R,C,result;
 char graph[20][20];
 bool visited[26];
-
 
 void dfs(int x, int y, int cnt){
     int index = graph[x][y] - 'A';
@@ -40,6 +38,8 @@ int main(){
             cin >> graph[i][j];
         }
     }
+
     dfs(0,0,0);
+
     cout << result;
 }
