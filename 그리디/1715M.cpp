@@ -5,6 +5,7 @@
 우선순위 큐 사용
 벡터로 했을때와의 시간 복잡도가 많이 차이 나는가....
 sort 평균 시간 복잡도 nlogn
+우선순위 큐 특성 https://kibbomi.tistory.com/149 참고
 **/
 
 #include <iostream>
