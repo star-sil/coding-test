@@ -31,6 +31,7 @@ public class A12023 {
             edges.add(new Edge(to, from));
             a[from][to] = a[to][from] = true;
             g[from].add(to);
+            g[to].add(from);
         }
         m *= 2;
         for(int i = 0; i<m; i++){
