@@ -11,4 +11,4 @@ for i in range(h):
             g[i+x][j+y] -= g[i][j]
 
 for i in range(h):
-    print(g[i][:w])
+    print(*g[i][:w])
